@@ -10,7 +10,7 @@ console.log(personas)
         <ul>
           {personas.map((persona, index) => (
             <>
-              <li key={index}>{persona.nombre}, {persona.apellido}</li> <Link href='/persona'>Mas info</Link>
+              <li key={index}>{persona.nombre}, {persona.apellido} <Link href={`/persona/${persona.id}`} className={styles.link}>Mas info</Link></li> 
             </> 
           ))}
         </ul>
