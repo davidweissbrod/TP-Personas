@@ -1,5 +1,5 @@
 
-export default Personas = [
+const personas = [
   {
     "id":"1",
     "nombre":"Sinclair",
@@ -421,3 +421,4 @@ export default Personas = [
     "edad":"48"
   },
 ];
+export default personas
